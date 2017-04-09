@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Validate the form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="validate.js"></script>
+</head>
+<body>
+    <div id="container" alt="biggest container" >
+       <form style="margin-left: 60px" name="myform" onsubmit="return validation()">
+        <h1 align="center">                                  validate this page   </h1>             
+
+        Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;<input type="tex"   name="name" maxlength="20" required><br><br>
+        Father's Name&nbsp;:&nbsp;<input type="tex"   name="fname" maxlength="20" required><br>
+        Qualification&nbsp;&nbsp;&nbsp;:<br>
+         <pre>             <input type="checkbox" name="ssc" id="ssc" value="ssc" >SSC</pre>
+         <pre>             <input type="checkbox" name="ssc" id="ssc" value="ssc">HSC</pre>
+         <pre>             <input type="checkbox" name="ssc" id="ssc" value="ssc">B.Sc</pre>
+         <pre>             <input type="checkbox" name="ssc" id="ssc" value="ssc">PG</pre>
+         Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;<input type="radio"   name="sex" > Male <input type="radio"   name="sex" > Female<br><br>
+         Date of Birth&nbsp;&nbsp;:&nbsp;<input type="Date"   name="age"  required><br><br>
+         Mobile no.&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<input type="tex"   name="Mobile"  maxlength="10"  required><br><br>
+         Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;<input type="email"   name="email"  maxlength="32"  required><br><br>
+         Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textarea    rows="4" name="address"  required>  </textarea> <br>
+        <input type="submit" name="submit" value="submit">
+       </form>
+    </div>
+
+</body>
+</html>
